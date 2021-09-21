@@ -1182,4 +1182,6 @@ Text Label 5250 2900 0    50   ~ 0
 RST
 Text Label 5250 2700 0    50   ~ 0
 RAW
+Text Notes 4800 2150 0    50   ~ 0
+Scanning process pseudocode:\n\nInit(){\nfor row in rows{\nsetmode(row, INPUT_PULLUP);\n}\nfor col in cols{\nsetmode(col, OUTPUT);\nwrite(col,1);\n} \n}\ndef scan_row(row){\nfor col in cols{\nwrite(col, 0);\nif(read(row) == 0){\n//button at (row,col) is pressed\n}\nwrite(col, 1);\n}\n}
 $EndSCHEMATC
