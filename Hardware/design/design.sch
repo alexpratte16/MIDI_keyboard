@@ -1004,8 +1004,6 @@ F 3 "" H 2125 7125 50  0001 C CNN
 	1    2150 7100
 	1    0    0    -1  
 $EndComp
-Text Label 3000 7100 0    50   ~ 0
-row4
 Wire Wire Line
 	5100 7100 5100 6950
 $Comp
@@ -1171,17 +1169,19 @@ Wire Wire Line
 Wire Wire Line
 	1300 5850 1300 6550
 Text Label 3050 5300 0    50   ~ 0
-row5
-Text Label 1300 6100 0    50   ~ 0
-col0
-Text Label 1800 6100 0    50   ~ 0
-col1
-Text Label 2500 6100 0    50   ~ 0
-col2
-Text Label 3900 6100 0    50   ~ 0
-col3
-Text Label 4600 6100 0    50   ~ 0
-col4
-Text Label 5100 6100 0    50   ~ 0
-col5
+ROW5
+Text Label 3100 7100 0    50   ~ 0
+ROW4
+Text Label 1300 6150 0    50   ~ 0
+COL0
+Text Label 1800 6150 0    50   ~ 0
+COL1
+Text Label 2500 6150 0    50   ~ 0
+COL2
+Text Label 3900 6150 0    50   ~ 0
+COL3
+Text Label 4600 6150 0    50   ~ 0
+COL4
+Text Label 5100 6150 0    50   ~ 0
+COL5
 $EndSCHEMATC
