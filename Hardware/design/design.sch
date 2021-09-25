@@ -206,7 +206,7 @@ U 1 1 614F7B37
 P 6850 2850
 F 0 "SW4" H 6850 2665 50  0000 C CNN
 F 1 "SW_Push" H 6850 2756 50  0000 C CNN
-F 2 "digikey-footprints:Switch_Toggle_ATE1D-2M3-10-Z" H 6850 3050 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6850 3050 50  0001 C CNN
 F 3 "~" H 6850 3050 50  0001 C CNN
 	1    6850 2850
 	-1   0    0    1   
@@ -217,7 +217,7 @@ U 1 1 614F7B3D
 P 7600 2850
 F 0 "SW8" H 7600 2665 50  0000 C CNN
 F 1 "SW_Push" H 7600 2756 50  0000 C CNN
-F 2 "digikey-footprints:Switch_Toggle_ATE1D-2M3-10-Z" H 7600 3050 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7600 3050 50  0001 C CNN
 F 3 "~" H 7600 3050 50  0001 C CNN
 	1    7600 2850
 	-1   0    0    1   
@@ -228,7 +228,7 @@ U 1 1 614F7B43
 P 8300 2850
 F 0 "SW13" H 8300 2665 50  0000 C CNN
 F 1 "SW_Push" H 8300 2756 50  0000 C CNN
-F 2 "digikey-footprints:Switch_Toggle_ATE1D-2M3-10-Z" H 8300 3050 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8300 3050 50  0001 C CNN
 F 3 "~" H 8300 3050 50  0001 C CNN
 	1    8300 2850
 	-1   0    0    1   
@@ -316,7 +316,7 @@ U 1 1 614F7B73
 P 7600 3700
 F 0 "SW9" H 7600 3515 50  0000 C CNN
 F 1 "SW_Push" H 7600 3606 50  0000 C CNN
-F 2 "digikey-footprints:Tilt_Switch_RB-220-07A_R" H 7600 3900 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7600 3900 50  0001 C CNN
 F 3 "~" H 7600 3900 50  0001 C CNN
 	1    7600 3700
 	-1   0    0    1   
@@ -327,7 +327,7 @@ U 1 1 614F7B79
 P 6850 3700
 F 0 "SW5" H 6850 3515 50  0000 C CNN
 F 1 "SW_Push" H 6850 3606 50  0000 C CNN
-F 2 "digikey-footprints:Tilt_Switch_RB-220-07A_R" H 6850 3900 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6850 3900 50  0001 C CNN
 F 3 "~" H 6850 3900 50  0001 C CNN
 	1    6850 3700
 	-1   0    0    1   

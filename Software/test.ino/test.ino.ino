@@ -35,6 +35,8 @@ void loop() {
     t0 = millis();
     note = random(32,96);
     MIDI.sendNoteOn(note, velocity, channel);
+    MIDI.sendNoteOn(note, velocity, channel);
+
     already_on = 1;
     Serial.print("note on!!!!!\n");
   }
