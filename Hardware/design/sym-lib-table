@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name Akiyuki_Connector)(type Legacy)(uri C:/Users/Alex/Documents/github/MIDI_keyboard/Hardware/kicad_libs/Kicad_Akiyuki_Symbol/Akiyuki_Connector.lib)(options "")(descr ""))
+  (lib (name Akiyuki_IC)(type Legacy)(uri C:/Users/Alex/Documents/github/MIDI_keyboard/Hardware/kicad_libs/Kicad_Akiyuki_Symbol/Akiyuki_IC.lib)(options "")(descr ""))
+  (lib (name Akiyuki_MCU)(type Legacy)(uri C:/Users/Alex/Documents/github/MIDI_keyboard/Hardware/kicad_libs/Kicad_Akiyuki_Symbol/Akiyuki_MCU.lib)(options "")(descr ""))
+  (lib (name Akiyuki_Module)(type Legacy)(uri C:/Users/Alex/Documents/github/MIDI_keyboard/Hardware/kicad_libs/Kicad_Akiyuki_Symbol/Akiyuki_Module.lib)(options "")(descr ""))
+  (lib (name Akiyuki_UI)(type Legacy)(uri C:/Users/Alex/Documents/github/MIDI_keyboard/Hardware/kicad_libs/Kicad_Akiyuki_Symbol/Akiyuki_UI.lib)(options "")(descr ""))
+)

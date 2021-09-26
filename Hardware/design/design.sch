@@ -350,8 +350,6 @@ Wire Wire Line
 Connection ~ 1900 1850
 Text Label 1550 1850 0    50   ~ 0
 VCC
-Wire Wire Line
-	5200 3000 5500 3000
 Text Label 5250 3000 0    50   ~ 0
 VCC
 Wire Wire Line
@@ -370,8 +368,6 @@ Text Label 1600 2300 0    50   ~ 0
 GND
 Text Label 1050 2300 0    50   ~ 0
 GND
-Wire Wire Line
-	5200 2800 5500 2800
 Text Label 5250 2800 0    50   ~ 0
 GND
 Wire Wire Line
@@ -992,7 +988,7 @@ RST
 Text Label 5250 2700 0    50   ~ 0
 RAW
 Text Notes 4800 2150 0    50   ~ 0
-Scanning process pseudocode:\n\nInit(){\nfor row in rows{\nsetmode(row, INPUT_PULLUP);\n}\nfor col in cols{\nsetmode(col, OUTPUT);\nwrite(col,1);\n} \n}\ndef scan_row(row){\nfor col in cols{\nwrite(col, 0);\nif(read(row) == 0){\n//button at (row,col) is pressed\n}\nwrite(col, 1);\n}\n}
+Scanning process pseudocode:\n\nInit(){\n  for row in rows{\n    setmode(row, INPUT_PULLUP);\n  }\n  for col in cols{\n    setmode(col, OUTPUT);\n    write(col,1);\n  } \n}\ndef scan_row(row){\n  for col in cols{\n    write(col, 0);\n    if(read(row) == 0){\n      //button at (row,col) is pressed\n    }\n    write(col, 1);\n  }\n}
 $Comp
 L pspice:DIODE D12
 U 1 1 61698380
@@ -1207,12 +1203,12 @@ ROW4
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 61514673
-P 10300 6150
-F 0 "H2" H 10400 6196 50  0000 L CNN
-F 1 "MountingHole" H 10400 6105 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4mm" H 10300 6150 50  0001 C CNN
-F 3 "~" H 10300 6150 50  0001 C CNN
-	1    10300 6150
+P 9800 6150
+F 0 "H2" H 9900 6196 50  0000 L CNN
+F 1 "MountingHole" H 9900 6105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm" H 9800 6150 50  0001 C CNN
+F 3 "~" H 9800 6150 50  0001 C CNN
+	1    9800 6150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1229,12 +1225,12 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 6151D16C
-P 10300 5900
-F 0 "H1" H 10400 5946 50  0000 L CNN
-F 1 "MountingHole" H 10400 5855 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4mm" H 10300 5900 50  0001 C CNN
-F 3 "~" H 10300 5900 50  0001 C CNN
-	1    10300 5900
+P 9800 5900
+F 0 "H1" H 9900 5946 50  0000 L CNN
+F 1 "MountingHole" H 9900 5855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm" H 9800 5900 50  0001 C CNN
+F 3 "~" H 9800 5900 50  0001 C CNN
+	1    9800 5900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1248,4 +1244,48 @@ F 3 "~" H 10600 5900 50  0001 C CNN
 	1    10600 5900
 	1    0    0    -1  
 $EndComp
+Text Notes 7900 750  0    118  ~ 24
+2 octave matrix
+Text Notes 700  1500 0    118  ~ 24
+MIDI control change potentiometers
+Text Notes 9750 5650 0    118  ~ 24
+mounting holes
+Text Notes 1550 4500 0    118  ~ 24
+left and right octave select
+NoConn ~ 5500 2700
+NoConn ~ 5500 2900
+NoConn ~ 3450 2700
+NoConn ~ 3450 2800
+NoConn ~ 3650 5000
+NoConn ~ 3650 5100
+NoConn ~ 3650 7300
+NoConn ~ 3650 7400
+Wire Wire Line
+	5200 2800 5500 2800
+Wire Wire Line
+	5200 3000 5500 3000
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 615FDBC4
+P 5500 3000
+F 0 "#FLG0101" H 5500 3075 50  0001 C CNN
+F 1 "PWR_FLAG" V 5500 3128 50  0000 L CNN
+F 2 "" H 5500 3000 50  0001 C CNN
+F 3 "~" H 5500 3000 50  0001 C CNN
+	1    5500 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 615FF50C
+P 5500 2800
+F 0 "#FLG0102" H 5500 2875 50  0001 C CNN
+F 1 "PWR_FLAG" V 5500 2928 50  0000 L CNN
+F 2 "" H 5500 2800 50  0001 C CNN
+F 3 "~" H 5500 2800 50  0001 C CNN
+	1    5500 2800
+	0    1    1    0   
+$EndComp
+Text Notes 7050 6950 0    157  ~ 31
+MIDI_keyboard V1
 $EndSCHEMATC

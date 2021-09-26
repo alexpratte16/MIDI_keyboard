@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Kicad_Akiyuki_Footprint)(type KiCad)(uri C:/Users/Alex/Documents/github/MIDI_keyboard/Hardware/kicad_libs/Kicad_Akiyuki_Footprint.pretty)(options "")(descr ""))
+  (lib (name promicro)(type KiCad)(uri C:/Users/Alex/Documents/github/MIDI_keyboard/Hardware/kicad_libs/ProMicroKiCad/promicro.pretty)(options "")(descr ""))
+)
