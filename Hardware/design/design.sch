@@ -1197,11 +1197,55 @@ F 3 "~" H 3350 7660 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 Text Label 3650 7200 0    50   ~ 0
-ROW6
+ROW5
 Text Label 2800 7200 0    50   ~ 0
-ROW6
-Text Label 2800 5200 0    50   ~ 0
 ROW5
 Text Label 3650 5200 0    50   ~ 0
-ROW5
+ROW4
+Text Label 2800 5200 0    50   ~ 0
+ROW4
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 61514673
+P 10300 6150
+F 0 "H2" H 10400 6196 50  0000 L CNN
+F 1 "MountingHole" H 10400 6105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm" H 10300 6150 50  0001 C CNN
+F 3 "~" H 10300 6150 50  0001 C CNN
+	1    10300 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 61515309
+P 10600 6150
+F 0 "H4" H 10700 6196 50  0000 L CNN
+F 1 "MountingHole" H 10700 6105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm" H 10600 6150 50  0001 C CNN
+F 3 "~" H 10600 6150 50  0001 C CNN
+	1    10600 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 6151D16C
+P 10300 5900
+F 0 "H1" H 10400 5946 50  0000 L CNN
+F 1 "MountingHole" H 10400 5855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm" H 10300 5900 50  0001 C CNN
+F 3 "~" H 10300 5900 50  0001 C CNN
+	1    10300 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 6151D172
+P 10600 5900
+F 0 "H3" H 10700 5946 50  0000 L CNN
+F 1 "MountingHole" H 10700 5855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm" H 10600 5900 50  0001 C CNN
+F 3 "~" H 10600 5900 50  0001 C CNN
+	1    10600 5900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
