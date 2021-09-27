@@ -987,8 +987,6 @@ Text Label 5250 2900 0    50   ~ 0
 RST
 Text Label 5250 2700 0    50   ~ 0
 RAW
-Text Notes 4800 2150 0    50   ~ 0
-Scanning process pseudocode:\n\nInit(){\n  for row in rows{\n    setmode(row, INPUT_PULLUP);\n  }\n  for col in cols{\n    setmode(col, OUTPUT);\n    write(col,1);\n  } \n}\ndef scan_row(row){\n  for col in cols{\n    write(col, 0);\n    if(read(row) == 0){\n      //button at (row,col) is pressed\n    }\n    write(col, 1);\n  }\n}
 $Comp
 L pspice:DIODE D12
 U 1 1 61698380
@@ -1029,17 +1027,11 @@ Wire Wire Line
 Wire Wire Line
 	5100 5850 5100 6550
 Wire Wire Line
-	2500 5850 2500 6550
-Wire Wire Line
 	1800 5850 1800 6550
 Wire Wire Line
 	1300 5850 1300 6550
-Text Label 1300 6150 0    50   ~ 0
-COL0
 Text Label 1800 6150 0    50   ~ 0
 COL1
-Text Label 2500 6150 0    50   ~ 0
-COL2
 Text Label 850  6150 0    50   ~ 0
 COL3
 Text Label 4600 6150 0    50   ~ 0
@@ -1288,4 +1280,12 @@ F 3 "~" H 5500 2800 50  0001 C CNN
 $EndComp
 Text Notes 7050 6950 0    157  ~ 31
 MIDI_keyboard V1
+Text Notes 4800 2150 0    50   ~ 0
+Scanning process pseudocode:\n\nInit(){\n  for row in rows{\n    setmode(row, INPUT_PULLUP);\n  }\n  for col in cols{\n    setmode(col, OUTPUT);\n    write(col,1);\n  } \n}\ndef scan_row(row){\n  for col in cols{\n    write(col, 0);\n    if(read(row) == 0){\n      //button at (row,col) is pressed\n    }\n    write(col, 1);\n  }\n}
+Wire Wire Line
+	2500 5850 2500 6550
+Text Label 2500 6150 0    50   ~ 0
+COL0
+Text Label 1300 6150 0    50   ~ 0
+COL2
 $EndSCHEMATC
