@@ -1,8 +1,7 @@
-finish adding diodes onto schematic
-finish wiring of rotary switches on schmatic
-choose, aquire footprints, and order parts
-layout PCB
-DRC
-ERC
-order PCB
-write firmware
+Add better documentation
+Add change control support for pots on A0 - A3
+Get the rotary switches working for changing base note (missing a diode)
+Organize into an object.
+
+Start thinking about V2
+
